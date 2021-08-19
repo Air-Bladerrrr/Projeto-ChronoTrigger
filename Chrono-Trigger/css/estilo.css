@@ -1,4 +1,12 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'Alagard';
+    src: url('Alagard.woff2') format('woff2'),
+        url('Alagard.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +25,7 @@ header{
 .menu{
   height: 20px;
   text-align: left;
+  font-family: 'Alagard';
 }
 .menu ul{
   list-style-type: none;
