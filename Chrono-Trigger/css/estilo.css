@@ -4,11 +4,15 @@
     margin: 0;
     padding: 0;
 }
-header{
-    background-image: url(../img/header.png);
+body{
+    background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
+    width: auto;
+
+}
+header{
     width: 100%;
-    height: 800px;
+    height: 900px;    
 }
 .menu{
   height: 20px;
@@ -86,3 +90,4 @@ footer{
   height: 308px;
   width: 261px;
 }
+
