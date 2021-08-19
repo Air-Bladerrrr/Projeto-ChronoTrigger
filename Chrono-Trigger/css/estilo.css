@@ -47,3 +47,42 @@ footer{
   border-bottom:2px solid black;
   border-radius: 20px;
 }
+.caixa-txt {
+  margin: 0 auto;
+  margin-bottom: 150px;
+  border-radius: 25px;
+  margin-top: 30px;
+  width: 500px;
+  height:280px;
+  background-color: rgba(26, 23, 23, 0.4);
+}
+.frog{
+  transform: translateX(-50%);
+  height:300px;
+  width: 300px;
+}
+.robo{
+  transform: translateX(-50%);
+  height:340px;
+  width: 250px;
+}
+.chrono{
+  transform: translateX(-50%);
+  height:360px;
+  width: 270px;
+}
+.magus{
+  transform: translateX(-50%);
+  height:300px;
+  width: 300px;
+}
+.ayla{
+  transform: translateX(-50%);
+  height: 320px;
+  width: 250px;
+}
+.marle{
+  transform: translateX(-40%);
+  height: 308px;
+  width: 261px;
+}
