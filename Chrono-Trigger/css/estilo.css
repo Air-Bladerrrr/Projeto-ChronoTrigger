@@ -159,16 +159,20 @@ footer{
   user-select: none;
 }
 input{
-  margin: 0 30px;
+  margin: 0 32px;
+}
+input:nth-child(7){
+  margin-right: 100px;
 }
 input::before{
   display: none;
 }
 input[type='radio']:after {
-  width: 70px;
-  height: 10px;
+  width: 75px;
+  height: 11px;
   top: -2px;
   left: -1px;
+  border-radius: 4px;
   position: relative;
   background-color: #d1d3d1;
   content: '';
@@ -177,19 +181,17 @@ input[type='radio']:after {
   border: 2px solid white;
 }
 input[type='radio']:checked:after {
-  width: 70px;
-  height: 10px;
+  width: 75px;
+  height: 11px;
   top: -2px;
   left: -1px;
+  border-radius: 4px;
   position: relative;
   background-color: #707070;
   content: '';
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
-}
-input:nth-last-child(2){
-  margin-right: 5%;
 }
 #animated_div {
   width:220px;
