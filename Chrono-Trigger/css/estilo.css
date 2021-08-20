@@ -71,44 +71,44 @@ footer{
 }
 .p{
   color: white;
-  transform: translatey(-368px);
+  transform: translatey(-444px);
   margin: 0 auto;
   text-align: center;
   width: 240px;
 }
 .frog{
-  transform: translateX(-50%);
-  height: 500px;
-  width: 420px;
+  transform: translateX(-45%);
+  height: 360px;
+  width: 300px;
+  margin-top: 45px;
 }
 .robo{
   transform: translateX(-50%);
-  height:340px;
-  width: 250px;
+  width: 240px;
 }
 .chrono{
   transform: translateX(-50%);
-  height:360px;
-  width: 270px;
+  height: 400px;
+  width: 250px;
 }
 .magus{
   transform: translateX(-50%);
-  height:300px;
-  width: 300px;
+  width: 305px;
+  height: auto;
 }
 .ayla{
   transform: translateX(-50%);
-  height: 320px;
-  width: 250px;
+  height: 400px;
+  width: 225px;;
 }
 .marle{
   transform: translateX(-40%);
-  height: 308px;
-  width: 261px;
+  width: 250px;
+  height: auto;
 }
-.Lucca{
-  transform: translateX(-41%);
-  height: 330px;
+.lucca{
+  transform: translateX(-45%);
+  height: 420px;
   width: 270px;
 }
 .slider{
