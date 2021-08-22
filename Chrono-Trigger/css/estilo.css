@@ -166,12 +166,13 @@ video {
   display: flex;
   justify-content: center;
   height: 400px;
+  width: 100%;
   margin: 0 auto;
 }
 .home .characters__content {
   border-radius: 25px;
   position: relative;
-  width: 1000px;
+  width: 60%;
   height: 450px;
   margin: 0;
   background: rgba(38,18,12,0.62);
@@ -234,7 +235,7 @@ ul, li {
   border-radius: 25px;
   margin-top: 0px;
   width: 1000px;
-  height: auto;
+  height: 400px;
 }
 .p{
   font-family: 'Alagard';
