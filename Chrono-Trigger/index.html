@@ -11,22 +11,131 @@
     <title>Chrono Trigger - Home</title>
 </head>
 <body>
-    <main>
-        <header>
-            <nav class="menu">
-              <ul>
-                  <li><a href="index.html"><img class="logo" src="img/logo.png" alt="Logo Chrono Trigger"></a></li>
-                  <li><a href="historia.html">História</a></li>
-                  <li><a href="personagens.html">Personagens</a></li>
-                  <li><a href="mapas.html">Mapas</a></li>
-                  <li><a href="sobre.html">Sobre</a></li>
+
+<div id="frame" class="root">
+<div class="content-wrap"> 
+    <div class="home">
+        <div class="header" style="transform: translateX(0px); display: block;">
+            <div class="header__logo">
+              <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="header__navwrap">
+              <div class="header__navbar">
+                <a href="index.html" aria-current="page" class="header__navitem">HOME</a>
+                <a href="#history" class="header__navitem">HISTORIA</a>
+                <a href="#map" class="header__navitem">MAPAS</a>
+                <a href="personagens.html" class="header__navitem">PERSONAGENS</a>
+                <a href="#footer__cdn" class="header__navitem">SOBRE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="poster">
+              <div id="bgWrap" style="width: 1920px; height: 983p;">
+                <div class="poster__concept">
+                    <!---->
+                </div>
+                <video id="bg" poster="" autoplay loop="loop" muted="muted" class="poster__bg" style="opacity: 1; width: 1920p; height: 1080p">
+                    <source src="/video/background.mp4" type="audio/mp4">
+                </video>
+              </div>
+              <div class="poster__sign">
+                  <p class="poster__sub">Disponivel em Varias Plataformas - Adquira Agora!</p>
+              </div>
+              <div class="poster__arrows">
+                  <div class="poster__arrow poster__arrow-1"></div> 
+                  <div class="poster__arrow poster__arrow-2"></div>
+                  <div class="poster__arrow poster__arrow-3"></div>
+              </div>
+            </div>
+
+          <section id="history" class="history">
+              <h3>HISTORIA</h3>
+              <div class="history__main">
+                  <div class="history__content">
+                      <div class="history__text">
+                          <!--Insira o texto aqui-->
+                      </div>
+                  </div>
+              </div>             
+          </section>
+
+          <section id="map" class="map">
+              <ul class="map__list">
+                  <li class="map__list-item">
+                      <div class="map__list-bg" style="background-image:url(../img/1000ad.png);"></div>
+                      <p>Present (1000 AD)</p>                      
+                  </li>
+                  <li class="map__list-item">
+                    <div class="map__list-bg" style="background-image:url(../img/600ad.png);"></div>
+                    <p>Middle Ages (600 AD)</p>  
+                  </li>
+                  <li class="map__list-item">
+                    <div class="map__list-bg" style="background-image:url(../img/2300ad.png);"></div>
+                    <p>Future (2300 AD)</p>  
+                  </li>
+                  <li class="map__list-item">
+                    <div class="map__list-bg" style="background-image:url(../img/65000000bc.png);"></div>
+                    <p>Prehistoric (65,000,000 BC)</p>  
+                  </li>
+                  <li class="map__list-item">
+                    <div class="map__list-bg" style="background-image:url(../img/12000bc.png);"></div>
+                    <p>Dark Ages (12,000 BC)</p>  
+                  </li>
+                  <li class="map__list-item">
+                    <div class="map__list-bg" style="background-image:url(../img/12000bc2.png);"></div>
+                    <p>Kingdom of Zeal (12,000 BC)</p>  
+                  </li>
+                  <li class="map__list-item">
+                    <div class="map__list-bg" style="background-image:url(../img/12000bc3.png);"></div>
+                    <p>Last Village (12,000 BC)</p>  
+                  </li>
+                  <li class="map__list-item">
+                    <div class="map__list-bg" style="background-image:url(../img/1999ad.png);"></div>
+                    <p>Apocalypse (1999 AD)</p>  
+                  </li>                  
               </ul>
-            </nav>
-        </header>
-          <div id="animated_div" style="margin:100px 34.5%; font-family:'Alagard'; font-weight:200; font-size:60px">Chrono Trigger</div>
-        <footer>
-            <address>teste</address>
-        </footer>
-    </main>
+
+          </section>
+
+          
+        <div class="footer">
+            <div class="footer__top">
+                <div class="footer__socialbar">
+                    
+                </div>       
+            </div>
+            <div id="footer__cdn">
+                <div class="chrono-footer">
+                    <div class="footer-wrap">
+                        <div class="footer-content">
+                            <div class="footer-content__logo">
+                                <div class="logoimg">
+                                    <img src="img/icon.png" alt="icon">
+                                </div>
+                                <div class="logoimg game">
+                                    <img src="img/logo.png" alt="logo">
+                                </div>
+                            </div>
+                            <div class="footer-content__info">
+                                <div class="links">
+                                    <a class="link" href="#">Politica de Privacidade</a>
+                                    <a class="link" href="#">Termos de Serviço</a>
+                                    <a class="link" href="sobre.html" target="blank">Sobre nós</a>
+                                </div>
+                                <div class="copyright"> Copyright &copy; 2021 Chrono Trigger Todos Os Direitos Reservados</div>
+                                <div class="extra-info">
+                                    "logos reservadas para Nintendo, logos retiradas do google imagens, e parte do codigo inspirado no site do Genshin Impact"
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 </body>
 </html>

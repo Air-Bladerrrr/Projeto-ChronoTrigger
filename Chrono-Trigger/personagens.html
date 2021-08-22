@@ -12,17 +12,20 @@
 </head>
 <body>
     <main>
-        <header>
-          <nav class="menu">
-            <ul>
-              <li><a href="index.html"><img class="logo" src="img/logo.png" alt="Logo Chrono Trigger"></a></li>
-              <li><a href="historia.html">História</a></li>
-              <li><a href="personagens.html">Personagens</a></li>
-              <li><a href="mapas.html">Mapas</a></li>
-              <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-          </nav>
-        </header>
+        <div class="header" style="transform: translateX(0px); display: block;">
+          <div class="header__logo">
+            <img src="img/logo.png" alt="logo">
+          </div>
+          <div class="header__navwrap">
+            <div class="header__navbar">
+              <a href="index.html" aria-current="page" class="header__navitem">HOME</a>
+              <a href="historia.html" class="header__navitem">HISTORIA</a>
+              <a href="mapas.html" class="header__navitem">MAPAS</a>
+              <a href="personagens.html" class="header__navitem">PERSONAGENS</a>
+              <a href="sobre.html" class="header__navitem">SOBRE</a>
+            </div>
+          </div>
+        </div>
         <section class="slider">
           <input name='slide' type="radio" checked>
           <input name='slide' type="radio">
