@@ -121,6 +121,43 @@ div {
   font-family: 'Alagard';
   margin: 5%;
 }
+.home .characters {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 910px;
+  background: url(../img/background4.png) no-repeat center/cover;
+  color: #fff;
+}
+.home .characters h3 {
+  text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
+  font-family: 'Alagard';
+  position: relative;
+  margin: 183px auto 60px;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+.home .characters__main {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin: 0 auto;
+}
+.home .characters__content {
+  border-radius: 25px;
+  position: relative;
+  width: 1000px;
+  margin: 0;
+  background: rgba(38,18,12,0.62);
+}
+.characters__text{
+  color: white;
+  text-indent: 25px;
+  text-align: justify;
+  font-family: 'Alagard';
+  margin: 5%;
+}
 .home .map {
   width: 100%;
 }
@@ -344,46 +381,6 @@ input[type='radio']:checked:after {
   text-align: center;
   text-shadow: 0 0 10px rgb(114 71 21 / 68%), 0 0 10px rgb(114 71 21 / 68%);
   margin: 32px auto 27px;
-}
-.home .poster__arrows {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  width: 28px;
-}
-.home .poster__arrow {
-  position: absolute;
-  width: 100%;
-  height: 24px;
-  background-image: url(../img/arrow-down.png);
-  background-repeat: no-repeat;
-  background-position: center 0;
-  background-color: transparent;
-  background-size: auto;
-  -webkit-animation-name: arrow;
-  animation-name: arrow;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
-.home .poster__arrow-1 {
-  top: 0;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-.home .poster__arrow-2 {
-  top: 12px;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-}
-.home .poster__arrow-3 {
-  top: 24px;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
 }
 .footer {
   font-family: 'Alagard';
