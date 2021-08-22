@@ -375,6 +375,12 @@ input[type='radio']:checked:after {
   visibility: visible;
   border: 2px solid white;
 }
+#bg{
+  opacity: 1;
+}
+#map h2 {
+  display: none;
+}
 .home .poster {
   position: relative;
   width: 100%;
@@ -392,7 +398,7 @@ input[type='radio']:checked:after {
   align-items: center;
 }
  #bgWrap {
-   width: 100%;
+   width: auto;
  }
 .home .poster video {
   -o-object-fit: cover;
