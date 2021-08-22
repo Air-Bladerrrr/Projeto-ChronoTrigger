@@ -23,9 +23,11 @@ body {
 }
 .p p {
   padding-top: 20px;
+  width: 300px;
 }
 .p h1 {
   font-size: 28px;
+  width: 300px;
 }
 figure {
   width: 100%;
