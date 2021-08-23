@@ -1073,11 +1073,11 @@ form {
     padding-bottom: 10px;
   }
   input::after, input[type='radio']:checked:after, input[type='radio']:after {
-    width: 30px;
+    width: 28px;
     height: 20px;
   }
   input {
-    margin: 0 15px;
+    margin: 0 14px;
     width: 1px;
     display: inline-block;
   }
