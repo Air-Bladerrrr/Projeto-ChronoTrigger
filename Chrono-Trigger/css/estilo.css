@@ -33,7 +33,7 @@ div {
   margin-top: 10px;
   width: 350px;
 }
-.p h1 {
+.p h2 {
   text-shadow: 1px 1.5px 2px black;
   text-align: center;
   font-size: 28px;
@@ -595,6 +595,67 @@ label span:nth-child(3) {
 .container label {
   display: none;
 }
+.form {
+  margin-top: -6px;
+}
+.home .form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 140px;
+  background: url(../img/background5.jpg) no-repeat center/cover;
+  color: #fff;
+}
+.home .form h3 {
+  text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
+  font-family: 'Alagard';
+  position: relative;
+  margin: 180px auto 60px;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+.form__main {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin: 0 auto;
+  width: 40%;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 25px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 58px;
+}
+.form__content .input-container {
+  padding: 5px 30px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+}
+.form__content .input-container input {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: none;
+  min-width: 0;
+  width: 100%;
+  color: #3c4044;
+  padding: 10px 12px;
+  background-color: transparent;
+  outline: none;
+  line-height: 18px;
+  font-size: 12px;
+}
 @media screen and (max-width: 1024px) {
   .home .history__content, .home .characters__content {
     width: 75%;
@@ -637,6 +698,14 @@ label span:nth-child(3) {
     height: 420px;
     width: 270px;
   }
+  .home .poster__sub {
+    font-family: 'Alagard';
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(114 71 21 / 68%), 0 0 10px rgb(114 71 21 / 68%);
+    margin: -32px auto 27px;
+  }
 }
 @media screen and (max-width: 960px) {
   .header__logo img{
@@ -652,39 +721,39 @@ label span:nth-child(3) {
     transform: scale(0.8);
   }
   .frog{
-    transform: translateX(-110%);
+    transform: translateX(-143%);
     height: 360px;
     width: 300px;
     margin-top: 45px;
   }
   .robo{
-    transform: translateX(-145%);
+    transform: translateX(-183%);
     width: 240px;
   }
   .chrono{
-    transform: translateX(-135%);
-    height: 400px;
+    transform: translateX(-175%);
+    height: 435px;
     width: 250px;
   }
   .magus{
-    transform: translateX(-112%);
-    width: 305px;
+    transform: translateX(-142%);
+    width: 310px;
     height: auto;
   }
   .ayla{
-    transform: translateX(-155%);
-    height: 400px;
-    width: 225px;;
+    transform: translateX(-178%);
+    height: 435px;
+    width: 240px;
   }
   .marle{
-    transform: translateX(-135%);
+    transform: translateX(-175%);
     width: 250px;
-    height: auto;
+    height: 430px;
   }
   .lucca{
-    transform: translateX(-126%);
-    height: 420px;
-    width: 270px;
+    transform: translateX(-145%);
+    height: 450px;
+    width: 290px;
   }
   .container label {
     display: block;
@@ -719,7 +788,9 @@ label span:nth-child(3) {
     left: 26%;
   }
 }
+@media screen and (max-width: 768px) {
 
+}
 @media screen and (max-width: 480px) {
   .chrono-footer .footer-content {
     width: 90%;
@@ -866,7 +937,6 @@ label span:nth-child(3) {
   .p p {
     font-size: 12px;
   }
-}
 }
 
 /*
