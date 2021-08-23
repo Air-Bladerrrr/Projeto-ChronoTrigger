@@ -604,14 +604,14 @@ label span:nth-child(3) {
   flex-direction: column;
   width: 100%;
   padding-bottom: 140px;
-  background: url(../img/background5.jpg) no-repeat center/cover;
+  background: url(/img/background5.jpg) no-repeat center/cover;
   color: #fff;
 }
 .home .form h3 {
   text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
   font-family: 'Alagard';
   position: relative;
-  margin: 180px auto 60px;
+  margin: 150px auto 60px;
   font-size: 50px;
   font-weight: 400;
   text-align: center;
@@ -634,6 +634,7 @@ form {
   margin-top: 58px;
 }
 .form__content .input-container {
+  top: 30px;
   padding: 5px 30px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -657,6 +658,14 @@ form {
   line-height: 18px;
   font-size: 12px;
 }
+.input-item{
+  margin-top: 10px;
+}
+.submit:hover{
+  background-color: rgba(0, 0, 0, 0.192);
+  color: white;
+}
+
 @media screen and (max-width: 1024px) {
   .home .history__content, .home .characters__content {
     width: 75%;
