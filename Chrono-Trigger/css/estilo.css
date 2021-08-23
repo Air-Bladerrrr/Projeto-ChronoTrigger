@@ -603,7 +603,8 @@ label span:nth-child(3) {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-bottom: 140px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   background: url(/img/background5.jpg) no-repeat center/cover;
   color: #fff;
 }
@@ -611,6 +612,9 @@ label span:nth-child(3) {
   text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
   font-family: 'Alagard';
   position: relative;
+  margin: auto;
+  max-width: 500px;
+  height: 80px;
   margin: 150px auto 60px;
   font-size: 50px;
   font-weight: 400;
@@ -623,19 +627,28 @@ form {
 .form__main {
   display: flex;
   justify-content: center;
+  height: 440px;
+  margin: auto;
+  max-width: 600px;
   height: 400px;
   margin: 0 auto;
-  width: 40%;
+  width: 80%;
   height: 450px;
   background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
   padding: 20px 25px;
   border-radius: 20px;
   position: relative;
-  margin-top: 58px;
+}
+.form__content {
+  display: table;
+  align-items: center;
+  margin-top: 0;
 }
 .form__content .input-container {
   top: 30px;
-  padding: 5px 30px 10px;
+  width:140px;
+  padding: 5px 5px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -652,11 +665,18 @@ form {
   min-width: 0;
   width: 100%;
   color: #3c4044;
-  padding: 10px 12px;
+  padding: 10px 0;
   background-color: transparent;
   outline: none;
   line-height: 18px;
   font-size: 12px;
+}
+input {
+    text-align: center;
+}
+.input-container input {
+  display: inline-block;
+  margin: 0 auto;
 }
 .input-item{
   margin-top: 10px;
@@ -665,8 +685,18 @@ form {
   background-color: rgba(0, 0, 0, 0.192);
   color: white;
 }
+:-ms-input-placeholder, ::-moz-placeholder, :-moz-placeholder, ::-webkit-input-placeholder {
+  text-align: center;
+}
+.home .form h3 {
+    margin: auto;
+    height: 105px;
+}
 
 @media screen and (max-width: 1024px) {
+  .footer__top {
+    display: none;
+  }
   .home .history__content, .home .characters__content {
     width: 75%;
   }
@@ -795,7 +825,13 @@ form {
   .header__logo img {
     position: absolute;
     top: 0;
-    left: 26%;
+    left: 26.5%;
+  }
+  .form__main {
+    width: 80%;
+  }
+  .form__content {
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -813,7 +849,7 @@ form {
     padding-bottom: 70px;
   }
   .home .poster__sub {
-    margin: -96px auto 27px;
+    margin: 150px auto 27px;
   }
   .frog{
     transform: translateX(-153%);
@@ -850,6 +886,19 @@ form {
     height: 450px;
     width: 290px;
   }
+  .home .form h3 {
+    font-size: 36px;
+  }
+  .form__main {
+    margin-top: 70px;
+    height: 440px;
+    width: 80%;
+  }
+  .form__content {
+    display: table;
+    align-items: center;
+    margin-top: 0px;
+  }
 }
 @media screen and (max-width: 480px) {
   .chrono-footer .footer-content {
@@ -866,6 +915,9 @@ form {
     color: #fff;
     font-size: 16px;
     margin:none;
+  }
+  .home .poster__sign {
+    transform: translate(-50%, -160px);
   }
   .chrono-footer .footer-content__logo {
     width: 1000px;
@@ -978,6 +1030,25 @@ form {
     height: 385px;
     width: 275px;
   }
+  .form__main {
+    max-width: none;
+    display: block;
+    width: 80%;
+    height: 570px;
+    margin-top: 70px;
+  }
+  .form__content {
+    margin: auto;
+  }
+  .p h2 {
+    width: 240px;
+  }
+  .home .form h3 {
+    margin: 40px auto 10px;
+  }
+  .home .history__content, .home .characters__content {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -996,6 +1067,10 @@ form {
   }
   .p p {
     font-size: 13px;
+  }
+  .home .poster__sub {
+    margin: -122px auto 27px;
+    font-size: 16px;
   }
   .header__logo img {
     left: 10%;
@@ -1089,6 +1164,24 @@ form {
     margin: 0 14px;
     width: 1px;
     display: inline-block;
+  }
+  .home .form h3 {
+    margin: 40px auto 10px;
+  }
+  .form__main {
+    width: 90%;
+    height: 570px;
+  }
+  .home .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 0px;
+  }
+  .footer__top {
+    display: none;
   }
 }
 
