@@ -789,7 +789,57 @@ form {
   }
 }
 @media screen and (max-width: 768px) {
-
+  .home .history h3, .home .characters h3 {
+    margin: 100px auto 60px;
+    font-size: 40px;
+  }
+  .home .history {
+    padding-bottom: 100px;
+  }
+  .home .characters {
+    height: 760px;
+  }
+  .home .form {
+    padding-bottom: 70px;
+  }
+  .home .poster__sub {
+    margin: -96px auto 27px;
+  }
+  .frog{
+    transform: translateX(-153%);
+    height: 360px;
+    width: 300px;
+    margin-top: 45px;
+  }
+  .robo{
+    transform: translateX(-203%);
+    width: 240px;
+  }
+  .chrono{
+    transform: translateX(-193%);
+    height: 435px;
+    width: 250px;
+  }
+  .magus{
+    transform: translateX(-142%);
+    width: 310px;
+    height: auto;
+  }
+  .ayla{
+    transform: translateX(-200%);
+    height: 435px;
+    width: 240px;
+  }
+  .marle{
+    transform: translateX(-194%);
+    width: 250px;
+    height: 430px;
+  }
+  .lucca{
+    transform: translateX(-161%);
+    height: 450px;
+    width: 290px;
+  }
 }
 @media screen and (max-width: 480px) {
   .chrono-footer .footer-content {
