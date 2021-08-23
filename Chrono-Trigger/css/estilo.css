@@ -436,6 +436,7 @@ input[type='radio']:checked:after {
   color: #999;
   margin-left: -640px;
 }
+/*Não utilizamos porem ficou + bonito com*/
 .footer__socialbar {
   display: inline-block;
   list-style-type: none;
@@ -807,3 +808,27 @@ label span:nth-child(3) {
     font-size: 12px;
   }
 }
+}
+
+/*
+Notas do Projeto:
+
+CSS -> Nicholas, Luiz Eduardo.
+HTML -> Nicholas, Anderson.
+Textos -> Pesquisas e imagens -> Fabricio Veith.
+Responsividade -> Luiz Eduardo.
+
+Site de Chrono Trigger Baseado na estrutura do site do Genshin Impact.
+
+Site do Genshin Impact: Link -> https://genshin.mihoyo.com/pt/home
+
+Link do site da nintendo pra gente não tomar copyright:
+
+Link -> https://www.nintendo.pt/Jogos/Nintendo-DS/Chrono-Trigger-270297.html
+
+Nota de Agradecimento:
+
+    Obrigado sora Aline essa pode ser a ultima disciplina de alguns de nós mas passando aqui pra agradecer tudo que foi ensinado
+agradecer pelos papos aleatorios da semana, curti muito o curso todo e concerteza vou seguir nessa área. Abraços Nicholas e companhia
+
+*/
