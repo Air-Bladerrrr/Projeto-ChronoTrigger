@@ -603,7 +603,8 @@ label span:nth-child(3) {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-bottom: 140px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   background: url(/img/background5.jpg) no-repeat center/cover;
   color: #fff;
 }
@@ -611,7 +612,9 @@ label span:nth-child(3) {
   text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
   font-family: 'Alagard';
   position: relative;
-  margin: 150px auto 60px;
+  margin: auto;
+  max-width: 500px;
+  height: 80px;
   font-size: 50px;
   font-weight: 400;
   text-align: center;
@@ -623,19 +626,22 @@ form {
 .form__main {
   display: flex;
   justify-content: center;
-  height: 400px;
-  margin: 0 auto;
-  width: 40%;
-  height: 450px;
+  height: 440px;
+  margin: auto;
+  max-width: 60%;
   background-color: rgb(255, 255, 255);
-  padding: 20px 25px;
+  padding: 20px 30px;
   border-radius: 20px;
   position: relative;
-  margin-top: 58px;
+}
+.form__content {
+  display: table;
+  align-items: center;
 }
 .form__content .input-container {
   top: 30px;
-  padding: 5px 30px 10px;
+  width:140px;
+  padding: 5px 5px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -652,11 +658,18 @@ form {
   min-width: 0;
   width: 100%;
   color: #3c4044;
-  padding: 10px 12px;
+  padding: 10px 0;
   background-color: transparent;
   outline: none;
   line-height: 18px;
   font-size: 12px;
+}
+input {
+    text-align: center;
+}
+.input-container input {
+  display: inline-block;
+  margin: 0 auto;
 }
 .input-item{
   margin-top: 10px;
@@ -664,6 +677,9 @@ form {
 .submit:hover{
   background-color: rgba(0, 0, 0, 0.192);
   color: white;
+}
+:-ms-input-placeholder, ::-moz-placeholder, :-moz-placeholder, ::-webkit-input-placeholder {
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -850,6 +866,12 @@ form {
     height: 450px;
     width: 290px;
   }
+  .home .form h3 {
+    font-size: 36px;
+  }
+  .form__main {
+    margin-top: 70px;
+  }
 }
 @media screen and (max-width: 480px) {
   .chrono-footer .footer-content {
@@ -977,6 +999,16 @@ form {
     margin-top: 380px;
     height: 385px;
     width: 275px;
+  }
+  .form__main {
+    max-width: none;
+    display: block;
+    width: 85%;
+    height: 490px;
+    margin-top: 70px;
+  }
+  .form__content {
+    margin: auto;
   }
 }
 
