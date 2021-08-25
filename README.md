@@ -26,7 +26,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/luiz-eduardo-dev">
+      <a href="https://github.com/luiz-eduardo-dev" target="blank">
         <img src="https://avatars3.githubusercontent.com/luiz-eduardo-dev" width="100px;" alt="Foto do Luiz Eduardo no GitHub"/><br>
         <sub>
           <b>Luiz Eduardo</b>
@@ -34,7 +34,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/FabricioVeith">
+      <a href="https://github.com/FabricioVeith" target="blank">
         <img src="https://avatars3.githubusercontent.com/FabricioVeith" width="100px;" alt="Foto do Fabricio Veith"/><br>
         <sub>
           <b>Fabricio Veith</b>
@@ -42,7 +42,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Anderson-Moreira">
+      <a href="https://github.com/Anderson-Moreira" target="blank">
         <img src="https://avatars3.githubusercontent.com/Anderson-Moreira" width="100px;" alt="Foto do Anderson Moreira"/><br>
         <sub>
           <b>Anderson Moreira</b>
