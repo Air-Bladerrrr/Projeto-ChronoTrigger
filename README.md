@@ -7,7 +7,7 @@
 
 <img src="https://jogoveio.com.br/wp-content/uploads/2016/10/chrono-trigger-jogoveio.png" alt="exemplo imagem">
 
-> Nosso projeto é um site onpage responsivo sobre o jogo Chrono Trigger. Usado como Avaliação no Curso Técnico em informatica da QI Faculdade e escola Técnica.
+> Nosso projeto é um site onpage responsivo sobre o jogo Chrono Trigger. Usado como Avaliação no Curso Técnico em informatica da QI Faculdade e Escola Técnica.
 
 ### Ajustes e melhorias
 
