@@ -1,14 +1,13 @@
-# Nome do projeto
+# Site-Chrono-Trigger
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://shields.io/github/repo-size/Nicholas-Goes/ProjetoSite-Chrono-Trigger?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Nicholas-Goes/ProjetoSite-Chrono-Trigger?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="https://jogoveio.com.br/wp-content/uploads/2016/10/chrono-trigger-jogoveio.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Nosso projeto é um site onpage responsivo sobre o jogo Chrono Trigger. Usado como Avaliação no Curso Técnico em informatica da QI Faculdade e escola Técnica.
 
 ### Ajustes e melhorias
 
@@ -27,7 +26,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/luiz-eduardo-dev">
         <img src="https://avatars3.githubusercontent.com/luiz-eduardo-dev" width="100px;" alt="Foto do Luiz Eduardo no GitHub"/><br>
         <sub>
           <b>Luiz Eduardo</b>
@@ -35,7 +34,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/FabricioVeith">
         <img src="https://avatars3.githubusercontent.com/FabricioVeith" width="100px;" alt="Foto do Fabricio Veith"/><br>
         <sub>
           <b>Fabricio Veith</b>
@@ -43,7 +42,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/Anderson-Moreira">
         <img src="https://avatars3.githubusercontent.com/Anderson-Moreira" width="100px;" alt="Foto do Anderson Moreira"/><br>
         <sub>
           <b>Anderson Moreira</b>
